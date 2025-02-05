@@ -5,7 +5,7 @@ Library     SeleniumLibrary
 
 *** Keywords ***
 OpeningMyBrowser
-            open browser    https://www.saucedemo.com/      chrome
+            open browser    https://www.saucedemo.com/      headlesschrome
             maximize browser window
             sleep  2 seconds
 
