@@ -15,7 +15,6 @@ Check Username and Passwords with Excel     ${username}     ${password}     ${er
 *** Keywords ***
 CheckUsernamePasswords
         [Arguments]     ${username}     ${password}     ${errormsg}
-        set selenium speed  3 seconds
         input text      xpath://*[@id="user-name"]        ${username}
         input text      xpath://*[@id="password"]            ${password}
         click element  xpath://*[@id="login-button"]
